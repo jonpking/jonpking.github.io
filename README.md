@@ -1,2 +1,2 @@
-# jonpking.github.io
-Personal Bio Page
+# Responsive-Portfolio
+Portfolio page made to be responsive to different view port sizes
