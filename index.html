@@ -1,47 +1,158 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jonathan King - Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-
-      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-
-      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
+    <!-- header area -->
+    <section class="hero has-text-centered has-text-weight-bold is-size-1">
+        <div class="hero-body">
+            <div class="container" id="headerTextOver">
+                <h1 class="is-size-1">JONATHAN KING</h1>
+            </div>
+        </div>
     </section>
 
-  </div>
+    <!-- portrait image -->
+    <figure class="image">
+        <img class="is-rounded" id="portrait" src="assets/images/portrait.jpg">
+    </figure>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
+    <div class="container" id="headerTextUnder">
+        <h6 class="is-size-3 is-family-code">Web Developer</h6>
     </div>
-  </footer>
+
+    <section class=section">
+        <div class="container">
+            <div class="columns">
+
+                <!-- about content area -->
+                <div class="column is-half">
+                    <div class="card">
+                        <header class="card-header">
+                            <h2 class="card-header-title has-text-weight-bold is-centered is-family-code">About Me</h2>
+                        </header>
+                        <div class="card-content">
+                            <p>A dedicated web developer with a life long passion for learning and growth.</p>
+                            <br>
+                            <p>A long career in various forms of customer service has allowed me to excel at problem
+                                solving, communication, and rapid adaptation to new situations and skills.</p>
+                            <br>
+                            <p>I am excited by the prospect of bringing these skills, and many more, to the web
+                                development field and looking forward to the next stage of my journey.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact content area -->
+                <div class="column is-half">
+                    <div class="card">
+                        <header class="card-header">
+                            <h2 class="card-header-title has-text-weight-bold is-centered is-family-code">Personal
+                                Information</h2>
+                        </header>
+                        <div class="card-content personalInfo">
+                            Email: <a href="mailto:JonPKing@gmail.com">JonPKing@gmail.com</a>
+                            <hr>
+                            Phone: 602.703.1741
+                            <hr>
+                            <a class="button" href="https://github.com/jonpking">GitHub</a>
+                            <a class="button" href="https://www.linkedin.com/in/jonathan-king-00500a44">LinkedIn</a>
+                            <a class="button" href="assets/files/Jonathan King Resume May 2019.pdf">Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+
+                <!-- projects content area -->
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <h2 class="card-header-title has-text-weight-bold is-centered is-family-code">Project
+                                Portfolio</h2>
+                        </header>
+                        <div class="card-content">
+                            <section class="projectItem">
+                                <div>
+                                    <h3>GamR</h3>
+                                    <hr>
+                                    <p>This project is designed to create, store, and map tabletop gaming events in real
+                                        time. This was designed with help from three other team members over the course
+                                        of two weeks time. It utilizes multiple APIs and libraries with which none of us
+                                        had any experience prior to the start of this project.
+                                    </p>
+                                    <a class="button"
+                                        href="https://github.com/kevinroymcgregor/DirtySwellsProject1">View the Repo</a>
+                                    <a class="button"
+                                        href="https://kevinroymcgregor.github.io/DirtySwellsProject1/#">View it Live</a>
+                                </div>
+                                <img class="projectImage" src="assets/images/gamr.png" alt="">
+                            </section>
+                            <section class="projectItem">
+                                <div>
+                                    <h3>Giftastic</h3>
+                                    <hr>
+                                    <p>
+                                        Using the buttons on screen you can
+                                        search the web for your favorite Gifs!
+                                        You can also add new buttons by using
+                                        the text input box on screen. This was
+                                        accomplished using the Giphy API over
+                                        the course of roughly one week.
+                                    </p>
+                                    <a class="button" href="https://github.com/jonpking/Giftastic">View the Repo</a>
+                                    <a class="button" href="https://jonpking.github.io/Giftastic/">View it Live</a>
+                                </div>
+                                <img class="projectImage" src="assets/images/giftastic.png" alt="">
+                            </section>
+                            <section class="projectItem">
+                                <div>
+                                    <h3>Trivia Game</h3>
+                                    <hr>
+                                    <P>
+                                        A fun little trivia game that was built
+                                        in about a week using jQuery. It is made
+                                        of almost entirely dynamically created
+                                        elements!
+                                    </P>
+                                    <a class="button" href="https://github.com/jonpking/TriviaGame">View the Repo</a>
+                                    <a class="button" href="https://jonpking.github.io/TriviaGame/">View it Live</a>
+                                </div>
+                                <img class="projectImage" src="assets/images/trivia_game.png" alt="">
+                            </section>
+                            <section class="projectItem">
+                                <div>
+                                    <h3>Crystal Collector</h3>
+                                    <hr>
+                                    <p>
+                                        A very simple number game built using
+                                        onClick functions and jQuery. This was
+                                        put together in approximately one week.
+                                    </p>
+                                    <a class="button" href="https://github.com/jonpking/Crystal-collector">View the
+                                        Repo</a>
+                                    <a class="button" href="https://jonpking.github.io/Crystal-collector/">View it
+                                        Live</a>
+                                </div>
+                                <img class="projectImage" src="assets/images/crystal_collector.png" alt="">
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
