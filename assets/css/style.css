@@ -100,3 +100,8 @@ hr {
 .button {
     background-color: #89daff;
 }
+
+.link-icon {
+    height: 50px;
+    width: 50px;
+}
